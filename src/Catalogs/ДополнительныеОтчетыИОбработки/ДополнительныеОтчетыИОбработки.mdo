@@ -24,6 +24,57 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
+  </attributes>
+  <attributes uuid="c374ad27-b899-458e-96e2-d02dfa961720" extendedConfigurationObject="66364cd4-aaa5-421d-96d6-3c283c14650d">
+    <name>ИспользоватьДляФормыОбъекта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="6ea94531-242f-49d8-872b-ac888c77f5bc" extendedConfigurationObject="fdbbbf8b-dacf-436e-8d8b-1e2b8e854b17">
+    <name>ИспользоватьДляФормыСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="b231d9cd-1246-47a8-8890-aa663be3d1e3" extendedConfigurationObject="23a240a2-52ee-46ab-89d9-50dcee2cc8d2">
+    <name>Ответственный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="529c5106-086b-49b6-897d-180a29f015f6" extendedConfigurationObject="bf1dd911-8ee1-407b-acae-10c85b74baf3">
+    <name>Публикация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВариантыПубликацииДополнительныхОтчетовИОбработок</type>
+        </types>
+      </typeExtension>
+    </extension>
   </attributes>
 </mdclass:Catalog>

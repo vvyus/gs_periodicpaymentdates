@@ -31,7 +31,6 @@
   <version>1.0.0.0</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="3cfe3f90-a95f-40a5-b3e7-c5cbcb649535" extendedConfigurationObject="6ec41672-ca59-40aa-a4cf-3fef74cdc3c6">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -48,6 +47,7 @@
   <commonModules>CommonModule.РасчетЗарплатыРасширенный</commonModules>
   <commonModules>CommonModule.ГСП_ОбщийМодульСервер</commonModules>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <dataProcessors>DataProcessor.ПланируемыеДатыВыплатыПоМесяцам</dataProcessors>
 </mdclass:Configuration>
