@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32d8c718-6f36-45a1-b949-e5acee41866a">
+  <producedTypes>
+    <objectType typeId="f54454ac-7149-4e34-bcd2-edfa278f7f37" valueTypeId="6df62550-ff88-4a4b-a562-372897f435fb"/>
+    <managerType typeId="261a26ad-d420-4d38-abcb-75a1bef71a23" valueTypeId="ebbe3a26-9e5c-4354-af95-1193be9b836b"/>
+  </producedTypes>
+  <name>ПланируемыеДатыВыплатыПоМесяцам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод планируемых дат выплаты по месяцам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПланируемыеДатыВыплатыПоМесяцам.Form.Форма</defaultForm>
+  <forms uuid="c158a473-690b-4b1a-8392-a33a408d06e0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

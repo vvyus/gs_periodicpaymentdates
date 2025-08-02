@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bf7dbde8-92ae-4283-8c0b-683f6cc8767f" extendedConfigurationObject="92707138-5004-4378-8477-f909166d319d">
+  <producedTypes>
+    <objectType typeId="b2fe3c3f-067a-40e6-8ec3-59fdb6ad60be" valueTypeId="fee6234d-eac1-4a03-ac28-73e2ef15fb1c"/>
+    <refType typeId="4c16f449-9d7b-456f-82a7-b5544a7fe1a2" valueTypeId="c1b01ee0-2c0f-4f8e-be16-1c3223a4a14e"/>
+    <selectionType typeId="bbff210f-352d-48e1-8a14-ee971fc16243" valueTypeId="bbe64da5-063c-4d60-8add-c685adb8a212"/>
+    <listType typeId="2d0f3cc0-699b-4eb0-a949-8b9813c90374" valueTypeId="dea05074-ba44-4cc3-bf3d-6d6ba78271ad"/>
+    <managerType typeId="07a75c9c-8f64-4e9a-8e8b-459a4254835a" valueTypeId="26e4fb30-cb5d-4349-8fe7-05060d37e61b"/>
+  </producedTypes>
+  <name>ДополнительныеОтчетыИОбработки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="e942d0dd-0327-4890-b12f-023056690b3d" extendedConfigurationObject="e924058f-25c3-4744-a565-836b824991b7">
+    <name>ХранилищеНастроек</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ValueStorage</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>
